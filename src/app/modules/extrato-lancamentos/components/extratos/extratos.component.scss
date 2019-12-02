@@ -1,0 +1,11 @@
+@import '../../../../../assets/sass/components/variables';
+
+.card {
+  width: 100%;
+  min-height: 7em;
+  border: 1px solid transparent;
+  border-radius: .15em;
+  border-left: 5px solid $primary;
+  box-shadow: 1px 1px 1px rgba($black, 0.05);
+  background-color: $white;
+}
