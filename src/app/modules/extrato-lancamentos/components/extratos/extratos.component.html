@@ -1,9 +1,7 @@
 <div class="container">
   <app-section title="Extrato de Lançamentos" subtitle="conta corrente">
 
-    <div class="card">
-      
-    </div>
+    <card-extrato *ngFor="let lancamento of lancamentos" [extratoLancamento]="lancamento"></card-extrato>
 
   </app-section>
 </div>

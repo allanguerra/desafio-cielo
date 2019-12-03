@@ -1,0 +1,53 @@
+@import '../../../../../assets/sass/components/variables';
+
+.card {
+  width: 100%;
+  min-height: 7em;
+
+  padding: .5em .75em;
+  margin: 1em 0;
+
+  border: 1px solid transparent;
+  border-radius: .15em;
+  border-left: 5px solid $primary;
+
+  box-shadow: 1px 1px 1px rgba($black, 0.05);
+  background-color: $white;
+  color: $black;
+
+  transition: all 30ms ease-in-out;
+
+  &:hover {
+    transform: translatey(-3px);
+  }
+
+  & label {
+    font-size: .75em;
+    color: lighten($black, 35%);
+  }
+
+  &-header {
+    display: flex;
+    flex-direction: column;
+
+    @media #{$medium-and-up} {
+      flex-direction: row;
+    }
+    
+    
+    &-item {
+      padding-bottom: 5px;
+
+      @media #{$medium-and-up} {
+        padding-right: 10px;
+      }
+
+      font-size: .85em;
+      color: lighten($black, 25%);
+    }
+  }
+
+  &-dados {
+    font-size: 1em;
+  }
+}

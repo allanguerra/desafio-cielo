@@ -13,6 +13,6 @@ import { ExtratosComponent } from './components/extratos/extratos.component';
     CommonModule,
     ExtratoLancamentosRoutingModule,
     SharedModule,
-  ]
+  ],
 })
 export class ExtratoLancamentosModule { }
