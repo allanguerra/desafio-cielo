@@ -4,8 +4,7 @@ import { ExtratoLancamentosService } from '../../services/extrato-lancamentos.se
 
 @Component({
   selector: 'app-extratos',
-  templateUrl: './extratos.component.html',
-  styleUrls: ['./extratos.component.scss']
+  templateUrl: './extratos.component.html'
 })
 export class ExtratosComponent implements OnInit {
 

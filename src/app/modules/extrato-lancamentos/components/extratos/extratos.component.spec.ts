@@ -16,7 +16,7 @@ describe('ExtratosComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(ExtratosComponent);
     component = fixture.componentInstance;
-    fixture.detectChanges();
+    fixture.detectChanges();zz
   });
 
   it('should create', () => {
